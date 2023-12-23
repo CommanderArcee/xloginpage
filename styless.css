@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(41, 41, 57);
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p{
+    font-size: 23px;
+    opacity: .6;
+    margin-right: 120px;
+}
+
+h1{
+    margin-top: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 50px;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.wrong {
+    float: left;
+    margin-left: 0px;
+}
+
+.xlogo {
+    width: 13%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    font-weight: bold;
+    border-radius: 22px;
+    background-color: white;
+    color: black;
+    border: 1px;
+    width: 55%;
+    font-size: 20px;
+    padding: 10px 10px;
+    font-family:Verdana, Tahoma, sans-serif;
+    cursor: pointer;
+    align-items: center;
+}
+
+.button-text-go {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.button-aple {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.gogle {
+    width: 7%;
+    float: left;
+    padding-left: 30px;
+
+}
+
+.apple {
+    width: 7%;
+    float: left;
+    padding-left: 30px;
+}
+
+.next{
+    padding-bottom: 13px;
+    padding-top: 13px;
+}
+
+.forgor-button {
+    background-color: black;
+    color: white;
+    border: 1px solid #8d8080;
+    padding-bottom: 13px;
+    padding-top: 13px;
+}
+
+.container-box {
+    width: 850px;
+    height: 900px;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    margin: 50px auto;
+    text-align: center;
+    background: rgba(2, 1, 1, 0.8);
+    position: relative;
+}
+
+h4 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 
+}
+
+input {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    border-radius: 2px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 0.7px solid #a9d5e3;
+}
+
+input::placeholder {
+    font-style: light;
+    font-size: 25px;
+    margin-top: 3px;
+    border: 0px;
+    color: #657786;
+}
+  
+input:focus{
+    border: 0.7px solid #3f3fac;
+    outline: 1px solid rgb(64, 64, 174);
+}
